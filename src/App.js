@@ -1,8 +1,14 @@
+import * as React from 'react';
+import { Grid } from '@mui/material'
+
+
 function App() {
   return (
-    <div>
-      
-    </div>
+    <>
+    <Grid>
+
+    </Grid>
+    </>
   );
 }
 
