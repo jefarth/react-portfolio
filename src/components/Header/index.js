@@ -26,6 +26,8 @@ export default function Header() {
             color="inherit"
             aria-label="linkedin"
             sx={{ mr: 2 }}
+            href="https://www.linkedin.com/in/jeremiah-farthing/"
+            target="_blank"
           >
             <LinkedInIcon />
           </IconButton>
@@ -35,6 +37,8 @@ export default function Header() {
             color="inherit"
             aria-label="github"
             sx={{ mr: 2 }}
+            href="https://github.com/jefarth"
+            target="_blank"
           >
             <GitHubIcon />
           </IconButton>
