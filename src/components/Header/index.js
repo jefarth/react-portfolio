@@ -8,7 +8,7 @@ import IconButton from '@mui/material/IconButton';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
-export default function Header() {
+export const Header = () => {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
@@ -47,3 +47,4 @@ export default function Header() {
     </Box>
   );
 }
+ export default Header;
